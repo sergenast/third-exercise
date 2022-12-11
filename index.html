@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: repeat(2, 100px);
+        grid-gap: 5px;
+      }
+      body > div > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div><img src="/1.jpg" alt="Первая собачка" /></div>
+    <div><img src="/2.jpg" alt="Вторая собачка" /></div>
+    <div><img src="/3.jpg" alt="Третья собачка" /></div>
+    <div><img src="/4.jpg" alt="Четвертая собачка" /></div>
+    <div><img src="/5.jpg" alt="Пятая собачка" /></div>
+    <div><img src="/6.jpg" alt="Шестая собачка" /></div>
+  </body>
+</html>
